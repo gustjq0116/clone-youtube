@@ -7,7 +7,7 @@ const mongoose = require('mongoose');
 const config = require('./config/key');
 
 
-//app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(bodyParser.json());
 
